@@ -1,0 +1,33 @@
+{
+  "name": "decentrafilesupload",
+  "version": "1.0.0",
+  "description": "The uploading service of DecentraFiles.",
+  "main": "uploadServer.js",
+  "scripts": {
+    "test": "jest",
+    "pretest": "cross-env NODE_ENV=test",
+    "start": "node uploadServer.js"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "author": "Gabriel De Almeida",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.828.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "pg": "^8.5.1",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^26.6.3",
+    "supertest": "^6.1.1"
+  }
+}

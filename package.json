@@ -1,0 +1,13 @@
+{
+  "name": "decentrafiles",
+  "version": "1.0.0",
+  "description": "An anonymous, decentralized file storage. You pick the max download count, and a time the file will expire, and we handle the rest!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel De Almeida",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {}
+}
