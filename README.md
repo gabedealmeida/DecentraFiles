@@ -13,15 +13,15 @@ https://youtu.be/LD4rFRKrlrs
 
 ## Check Out What DecentraFiles Looks Like!
 <p>
-  <img height="450px" src="https://github.com/gabedealmeida/DecentraFiles/blob/main/public/images/DecentraFilesHomepage.png" alt="DecentraFiles" />
+  <img width="80%" src="https://github.com/gabedealmeida/DecentraFiles/blob/main/public/images/DecentraFilesHomepage.png" alt="DecentraFiles" />
 </p>
 
 <p>
-  <img height="450px" src="https://github.com/gabedealmeida/DecentraFiles/blob/main/public/images/DecentraFilesDownloadModal.png" alt="DecentraFiles" />
+  <img width="80%" src="https://github.com/gabedealmeida/DecentraFiles/blob/main/public/images/DecentraFilesDownloadModal.png" alt="DecentraFiles" />
 </p>
 
 <p>
-  <img height="450px" src="https://github.com/gabedealmeida/DecentraFiles/blob/main/public/images/DecentraFilesUploadFile.png" alt="DecentraFiles" />
+  <img width="80%" src="https://github.com/gabedealmeida/DecentraFiles/blob/main/public/images/DecentraFilesUploadFile.png" alt="DecentraFiles" />
 </p>
 
 ## Build Instructions
