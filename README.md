@@ -2,6 +2,20 @@
 
 DecentraFiles is an anonymous decentralized file storage. You pick the max download count and a time the file will expire, and we handle the rest!
 
+[![build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/gabedealmeida/DecentraFiles/blob/main/README.md)
+
+<p>
+  <img height="450px" src="https://github.com/campion-breaker/campion/blob/main/public/images/DecentraFilesHomepage.png" alt="Campion" />
+</p>
+
+<p>
+  <img height="450px" src="https://github.com/campion-breaker/campion/blob/main/public/images/DecentraFilesDownloadModal.png" alt="Campion" />
+</p>
+
+<p>
+  <img height="450px" src="https://github.com/campion-breaker/campion/blob/main/public/images/DecentraFilesUploadFile.png" alt="Campion" />
+</p>
+
 ## Build Instructions
 
 | Step | Sction                                                                                                                                               |
