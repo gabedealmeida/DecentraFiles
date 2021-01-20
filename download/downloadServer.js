@@ -13,8 +13,8 @@ const pool = new Pool({
 });
 
 const redisClient = redis.createClient({
-  port: process.env.REDISPORT,
-  host,
+  port: 6379,
+  host: 'redis',
 });
 
 app.use(cors());
