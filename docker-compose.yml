@@ -1,0 +1,45 @@
+version: "3.8"
+
+services:
+  upload:
+    build: upload
+    ports:
+      - "8085:80"
+    links:
+      - "postgres:postgres"
+      - "redis:redis"
+    environment:
+      - PORT=80
+      - HOST=0.0.0.0
+      - PGHOST=postgres
+      - PGUSER=vortex
+      - PGDATABASE=vortex
+      - PGPASSWORD=password
+  download:
+    build: download
+    ports:
+      - "8086:80"
+    environment:
+      - PORT=80
+      - HOST=0.0.0.0
+      - PGHOST=postgres
+      - PGUSER=vortex
+      - PGDATABASE=vortex
+      - PGPASSWORD=password
+  views:
+    build: views
+    ports:
+      - "3003:80"
+    environment:
+      - PORT=80
+      - HOST=0.0.0.0
+  postgres:
+    image: postgres:latest
+    environment:
+        - POSTGRES_PASSWORD=password
+        - POSTGRES_DB=vortex
+        - POSTGRES_USER=vortex
+    volumes:
+        - ./setup.sql:/docker-entrypoint-initdb.d/init.sql
+  redis:
+    image: redis:latest
