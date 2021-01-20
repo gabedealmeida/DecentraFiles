@@ -1,6 +1,8 @@
 <p align="center">
-  <img width="200px" src="https://github.com/gabedealmeida/DecentraFiles/blob/main/public/images/DecentraFilesLogo.png" alt="DecentraFiles" />
+  <img width="100px" src="https://github.com/gabedealmeida/DecentraFiles/blob/main/public/images/DecentraFilesLogo.png" alt="DecentraFiles" />
 </p>
+
+# DecentraFiles
 
 DecentraFiles is an anonymous decentralized file storage. You pick the max download count and a time the file will expire, and we handle the rest!
 
