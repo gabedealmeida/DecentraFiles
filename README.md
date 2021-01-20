@@ -6,6 +6,10 @@ DecentraFiles is an anonymous decentralized file storage. You pick the max downl
 
 [![build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/gabedealmeida/DecentraFiles/blob/main/README.md)
 
+## DencentraFiles Demo
+https://youtu.be/LD4rFRKrlrs
+
+## Check Out What DecentraFiles Looks Like!
 <p>
   <img height="450px" src="https://github.com/gabedealmeida/DecentraFiles/blob/main/public/images/DecentraFilesHomepage.png" alt="DecentraFiles" />
 </p>
